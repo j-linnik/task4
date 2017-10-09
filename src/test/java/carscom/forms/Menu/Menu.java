@@ -43,7 +43,7 @@ public class Menu extends BaseForm {
     public void getMenuSection(MenuSection menuSection, SubMenu subMenu) {
         Label lblMenuSection = new Label(String.format(lblMenuSectionLocator, menuSection.getName()));
         lblMenuSection.click();
-        lblMenuSection.click();
+        //lblMenuSection.click();
         new Label(String.format(lblSubMenuLocator, subMenu.getName())).clickAndWait();
 
     }
