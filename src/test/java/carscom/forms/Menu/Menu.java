@@ -5,7 +5,7 @@ import framework.base.elements.Label;
 
 public class Menu extends BaseForm {
 
-    private String lblMenuSectionLocator = "//a[@title='%s']";
+    private String lblMenuSectionLocator = "//a[text()='%s']";
     private String lblSubMenuLocator = "//a[contains(text(), \"Research Car Models\")]";
 
     public enum MenuSection {
