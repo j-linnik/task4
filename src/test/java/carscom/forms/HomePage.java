@@ -10,7 +10,7 @@ import framework.base.elements.Label;
 import static framework.base.elements.Label.getNewLabel;
 
 public class HomePage extends BaseForm {
-    private String lblSpecsAndReviewsLocator = ("//a[contains(text(), 'Read Specs & Reviews')]");
+    private String lblSpecsAndReviewsLocator = ("//a[contains(text(), \"Read Specs & Reviews\")]");
     private String cmbMakeLocator = "//option[text()='Select a Make']/..";
     private String cmbModelLocator = "//option[text()='Select a Model']/..";
     private String cmbYearLocator = "//option[text()='Select a Year']/..";
