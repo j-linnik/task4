@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteForSteamStore" verbose="1">
+
+    <parameter name="adult_age_year" value="1990"/>
+
+    <test name="SteamTest">
+        <classes>
+            <class name="SteamTest"/>
+        </classes>
+    </test>
+</suite>
