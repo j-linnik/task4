@@ -1,4 +1,4 @@
-package properties;
+package framework.properties;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,10 +7,10 @@ import java.util.Properties;
 public class PropertiesFactory {
 
     private Properties seleniumProperties;
-    private String seleniunPropertiesPath = "src/resources/selenium.properties";
+    private String seleniunPropertiesPath = "src/test/resources/selenium.properties";
 
     private Properties languageProperties;
-    private String languagePropertiesPath = "src/resources/localization/loc_%s.properties";
+    private String languagePropertiesPath = "src/test/resources/localization/loc_%s.properties";
 
     public PropertiesFactory() {
         seleniumProperties = new Properties();

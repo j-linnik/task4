@@ -1,6 +1,6 @@
-package base.elements;
+package framework.base.elements;
 
-import base.BaseElement;
+import framework.base.BaseElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

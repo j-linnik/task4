@@ -1,6 +1,10 @@
+import gamesite.forms.ActionGamesPage;
+import gamesite.forms.AgeCheckPage;
+import gamesite.forms.GameFromSpecialPage;
+import gamesite.forms.MainPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import base.BaseTest;
+import framework.base.BaseTest;
 
 public class SteamTest extends BaseTest {
 

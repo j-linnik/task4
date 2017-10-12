@@ -1,5 +1,7 @@
-import base.BaseForm;
-import base.elements.Button;
+package gamesite.forms;
+
+import framework.base.BaseForm;
+import framework.base.elements.Button;
 
 public class DownloadPage extends BaseForm{
 

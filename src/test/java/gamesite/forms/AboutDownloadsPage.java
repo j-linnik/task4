@@ -1,5 +1,7 @@
-import base.BaseForm;
-import base.elements.Label;
+package gamesite.forms;
+
+import framework.base.BaseForm;
+import framework.base.elements.Label;
 
 import java.io.File;
 

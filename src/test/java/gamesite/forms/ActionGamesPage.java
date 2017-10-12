@@ -1,11 +1,13 @@
-import base.BaseForm;
-import base.elements.Label;
+package gamesite.forms;
+
+import framework.base.BaseForm;
+import framework.base.elements.Label;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static base.elements.Label.getNewLabel;
+import static framework.base.elements.Label.getNewLabel;
 
 public class ActionGamesPage extends BaseForm {
 

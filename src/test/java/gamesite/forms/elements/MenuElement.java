@@ -1,7 +1,7 @@
-package elements;
+package gamesite.forms.elements;
 
-import base.BaseForm;
-import base.elements.Label;
+import framework.base.BaseForm;
+import framework.base.elements.Label;
 
 public class MenuElement extends BaseForm {
     private String lblMenuSection = "//span[@class=\"pulldown\"]//a[text()=\"%s\"]";

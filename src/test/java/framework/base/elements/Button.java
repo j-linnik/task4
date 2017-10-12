@@ -1,6 +1,6 @@
-package base.elements;
+package framework.base.elements;
 
-import base.BaseElement;
+import framework.base.BaseElement;
 public class Button extends BaseElement {
 
     public Button(String xpath) {

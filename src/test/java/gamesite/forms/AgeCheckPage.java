@@ -1,6 +1,8 @@
-import base.BaseForm;
-import base.elements.Button;
-import base.elements.ComboBox;
+package gamesite.forms;
+
+import framework.base.BaseForm;
+import framework.base.elements.Button;
+import framework.base.elements.ComboBox;
 
 public class AgeCheckPage extends BaseForm{
 

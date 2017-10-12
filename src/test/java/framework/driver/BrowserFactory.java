@@ -1,4 +1,4 @@
-package driver;
+package framework.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,7 +37,7 @@ public class BrowserFactory {
                 profile.setPreference("browser.download.dir", downloadDirectory);
                 FirefoxOptions fOptions = new FirefoxOptions();
                 fOptions.setProfile(profile);
-                System.setProperty("webdriver.gecko.driver", "src/resources/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
                 driver = new FirefoxDriver(fOptions);
                 break;
 
@@ -47,7 +47,7 @@ public class BrowserFactory {
                 settings.put("safebrowsing.enabled", "true");
                 settings.put("download.default_directory" , downloadDirectory);
                 options.setExperimentalOption("prefs", settings);
-                System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
                 driver = new ChromeDriver(options);
                 break;
 

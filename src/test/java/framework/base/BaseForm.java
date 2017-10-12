@@ -1,7 +1,7 @@
-package base;
+package framework.base;
 
-import base.elements.Label;
-import driver.BrowserFactory;
+import framework.base.elements.Label;
+import framework.driver.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

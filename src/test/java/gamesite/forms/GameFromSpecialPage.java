@@ -1,6 +1,8 @@
-import base.BaseForm;
-import base.elements.Button;
-import base.elements.Label;
+package gamesite.forms;
+
+import framework.base.BaseForm;
+import framework.base.elements.Button;
+import framework.base.elements.Label;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,12 +1,12 @@
-package base;
+package framework.base;
 
-import driver.BrowserFactory;
+import framework.driver.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import properties.PropertiesFactory;
+import framework.properties.PropertiesFactory;
 
 import java.util.concurrent.TimeUnit;
 
